@@ -8,4 +8,5 @@ import com.home.remote.api.entities.Config;
 @Repository
 public interface ConfigRepository extends JpaRepository<Config, Long> {
 
+	Config findOneConfigById(Long configId);
 }

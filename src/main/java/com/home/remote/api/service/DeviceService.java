@@ -13,5 +13,5 @@ public interface DeviceService {
 
 	Device findOneDevice(Long deviceId);
 
-	Device saveConfig(Device device);
+	Device saveDevice(Device device);
 }

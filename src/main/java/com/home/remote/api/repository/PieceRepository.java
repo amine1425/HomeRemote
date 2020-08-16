@@ -8,4 +8,6 @@ import com.home.remote.api.entities.Piece;
 @Repository
 public interface PieceRepository extends JpaRepository<Piece, Long> {
 
+	Piece findOnePieceById(Long pieceId);
+
 }

@@ -8,4 +8,6 @@ import com.home.remote.api.entities.Users;
 @Repository
 public interface UsersRepository extends JpaRepository<Users, Long> {
 
+	Users findOneUsersById(Long usersId);
+
 }

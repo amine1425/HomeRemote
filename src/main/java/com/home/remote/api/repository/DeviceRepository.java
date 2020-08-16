@@ -8,4 +8,6 @@ import com.home.remote.api.entities.Device;
 @Repository
 public interface DeviceRepository extends JpaRepository<Device, Long> {
 
+	Device findOneDeviceById(Long deviceId);
+
 }
